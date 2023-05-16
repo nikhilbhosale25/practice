@@ -1,0 +1,46 @@
+git clone (paste repository link)
+
+-------------GIT hub Push commads:
+
+git status
+
+git add .
+
+git status
+
+git commit -m "nikhil"
+
+git push
+
+git status
+
+
+----------------AWS commands:
+sudo apt-get install
+
+sudo apt-get update
+
+sudo apt install docker.io
+
+git clone " link of repo   " 
+
+ls
+
+cd "directoryname/"
+
+ls
+
+sudo docker build -t "xyzname"
+
+sudo docker run -d -p 7667:7667 "xyzname"
+
+sudo docker images
+
+---------------------------------
+sudo docker pull nginx
+sudo docker run --name nginxsvr -d -p 8080:80 nginx:latest
+---------------------------------
+sudo docker pull mcr.microsoft.com/dotnet/aspnet
+sudo docker run -it --rm -d -p 8000:80 --name aspnetcore_sample mcr.microsoft.com/dotnet/samples:aspnetapp
+------------------------------------
+sudo docker kill (write id)
